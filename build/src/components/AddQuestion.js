@@ -15,7 +15,7 @@ function AddQuestion() {
     }
 
     var users = JSON.parse(localStorage.getItem("users"))
-    console.log("Anamika",users)
+    console.log("Deepak",users)
     const newQuestion = {
       id: qa.length + 1,
       answeredBy: "xyz zbd",
